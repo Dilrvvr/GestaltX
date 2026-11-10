@@ -4,7 +4,7 @@
 
 <h1 align="center">GestaltX</h1>
 
-[![Version](https://img.shields.io/badge/version-1.0.3-blue)](https://github.com/huamidev/GestaltX)
+[![Version](https://img.shields.io/badge/version-1.0.4-blue)](https://github.com/huamidev/GestaltX)
 [![Platform](https://img.shields.io/badge/iOS-27.x-black?logo=apple)](#compatibility)
 [![SwiftUI](https://img.shields.io/badge/Swift-SwiftUI-orange?logo=swift)](https://github.com/huamidev/GestaltX)
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](LICENSE)
@@ -17,11 +17,11 @@ A MobileGestalt editor for iPhone and iPad. Developed by [huamidev](https://gith
 
 | Category | Presets and tools |
 | --- | --- |
-| Display | Dynamic Island capability and layout, Always-On Display, AOD Vibrancy, Liquid Glass low-power rendering |
-| Device | Model name, boot/shutdown chime, charge limit, tap to wake, Camera Control settings, Action Button settings |
+| Display | Dynamic Island capability and layout, Always-On Display, AOD Vibrancy, high-luminance AOD, AOD flipbook, HDR photo display, wallpaper parallax, Liquid Glass low-power rendering, experimental PWM and DisplayPort flags |
+| Device | Model name, boot/shutdown chime, charge limit, tap to wake, Camera Control settings, Action Button settings, Collision SOS, Audio Mix, Spatial FaceTime audio |
 | iPad | Apple Pencil settings, Stage Manager capability, iPad app compatibility |
-| Intelligence | Independent region-code options, Apple Intelligence capability flag, and sales-region options for activation attempts on China-mainland devices |
-| Advanced | Apple internal feature flags, internal storage view, Security Research Device flag |
+| Intelligence | Independent region-code options, Apple Intelligence capability flag, on-device Siri, Audio Intelligence, Personal Translator, Photos Clean Up, Handwriting Synthesis, always-listening Hey Siri, and sales-region options for activation attempts on China-mainland devices |
+| Advanced | Apple internal feature flags, internal storage view, internal settings bundle, Security Research Device flag |
 | Field editor | Read, search, add, edit, and remove `CacheExtra` fields; local plist import/export; String, Integer, Real, Boolean, Data, Date, Array, and Dictionary values |
 | Changes | Automatic reading and manual re-read, staged before/after review, verified writes, per-preset restore |
 | Backups | Automatic initial backup before device editing, backup before every write, original-value records; open, export, restore, and delete |

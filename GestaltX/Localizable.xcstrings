@@ -1,6 +1,162 @@
 {
   "sourceLanguage": "en",
   "strings": {
+    "WAPI": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAPI"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAPI"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAPI"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAPI"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAPI"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAPI"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAPI"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAPI"
+          }
+        }
+      }
+    },
+    "Disable WAPI": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disable WAPI"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关闭 WAPI"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غیرفعال کردن WAPI"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAPI 끄기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отключить WAPI"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tắt WAPI"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉 WAPI"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉 WAPI"
+          }
+        }
+      }
+    },
+    "Restore Original": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Original"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复原值"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بازگردانی مقدار اصلی"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "원래 값 복원"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вернуть исходное значение"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khôi phục giá trị gốc"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "還原原值"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "還原原值"
+          }
+        }
+      }
+    },
     "Special Thanks": {
       "localizations": {
         "en": {
@@ -16741,6 +16897,1826 @@
           "stringUnit": {
             "state": "translated",
             "value": "A3718 — 18 Pro Max · 中國大陸"
+          }
+        }
+      }
+    },
+    "The artwork field is not a dictionary. Edit it in MG Control before using these presets.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The artwork field is not a dictionary. Edit it in MG Control before using these presets."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "artwork 字段不是字典，请先在 MG 控制中编辑此字段，再使用这些预设。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فیلد artwork از نوع دیکشنری نیست. پیش از استفاده از این پیش‌تنظیم‌ها، آن را در MG Control ویرایش کنید."
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "artwork 필드가 사전 형식이 아닙니다. 이 프리셋을 사용하기 전에 MG Control에서 수정하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поле artwork не является словарём. Отредактируйте его в MG Control перед использованием этих пресетов."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trường artwork không phải là từ điển. Hãy chỉnh sửa trường này trong MG Control trước khi dùng các thiết lập sẵn này."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "artwork 欄位不是字典，請先在 MG 控制中編輯此欄位，再使用這些預設。"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "artwork 欄位不是字典，請先在 MG 控制中編輯此欄位，再使用這些預設。"
+          }
+        }
+      }
+    },
+    "High-Luminance Always-On Display": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "High-Luminance Always-On Display"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高亮度始终显示"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高亮度永遠顯示"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高亮度永遠顯示"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نمایش همیشه‌روشن با روشنایی بالا"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "고휘도 상시 표시"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Always-On Display повышенной яркости"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Màn hình luôn bật độ sáng cao"
+          }
+        }
+      }
+    },
+    "Allow Always-On Display to reach a higher brightness level.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow Always-On Display to reach a higher brightness level."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允许“始终显示”达到更高亮度。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允許「永遠顯示」達到更高亮度。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允許「永遠顯示」達到更高亮度。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اجازه می‌دهد نمایش همیشه‌روشن به روشنایی بالاتری برسد."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상시 표시가 더 높은 밝기에 도달하도록 허용합니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешает Always-On Display достигать более высокой яркости."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cho phép Màn hình luôn bật đạt độ sáng cao hơn."
+          }
+        }
+      }
+    },
+    "Always-On Display Flipbook": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Always-On Display Flipbook"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "始终显示翻页组件"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "永遠顯示翻頁小工具"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "永遠顯示翻頁小工具"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فلیپ‌بوک نمایش همیشه‌روشن"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상시 표시 플립북"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook для Always-On Display"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook màn hình luôn bật"
+          }
+        }
+      }
+    },
+    "Enable AOD flipbook widgets on the Lock Screen.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable AOD flipbook widgets on the Lock Screen."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在锁屏上启用 AOD 翻页小组件。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在鎖定畫面上啟用 AOD 翻頁小工具。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在鎖定畫面上啟用 AOD 翻頁小工具。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ویجت‌های فلیپ‌بوک AOD را در صفحه قفل فعال می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "잠금 화면에서 AOD 플립북 위젯을 활성화합니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включает виджеты flipbook AOD на экране блокировки."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật tiện ích flipbook AOD trên màn hình khóa."
+          }
+        }
+      }
+    },
+    "AOD Flipbook Count": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AOD Flipbook Count"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AOD 翻页数量"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AOD 翻頁數量"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AOD 翻頁數量"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعداد فلیپ‌بوک AOD"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AOD 플립북 개수"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Количество flipbook AOD"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Số lượng flipbook AOD"
+          }
+        }
+      }
+    },
+    "Set how many AOD flipbook entries are allowed. Experimental; the accepted range varies by build.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set how many AOD flipbook entries are allowed. Experimental; the accepted range varies by build."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置允许的 AOD 翻页条目数量。实验性功能，可用范围因系统版本而异。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定允許的 AOD 翻頁項目數量。實驗性功能，可用範圍因系統版本而異。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定允許的 AOD 翻頁項目數量。實驗性功能，可用範圍因系統版本而異。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعداد ورودی‌های مجاز فلیپ‌بوک AOD را تنظیم می‌کند. آزمایشی؛ محدوده مجاز بسته به build متفاوت است."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "허용되는 AOD 플립북 항목 수를 설정합니다. 실험적 기능이며 허용 범위는 빌드에 따라 다릅니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Задаёт число записей flipbook AOD. Экспериментально; допустимый диапазон зависит от сборки."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đặt số mục flipbook AOD được phép. Thử nghiệm; phạm vi hợp lệ tùy bản dựng."
+          }
+        }
+      }
+    },
+    "Disable Wallpaper Parallax": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disable Wallpaper Parallax"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关闭壁纸视差"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉桌布視差"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉桌布視差"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غیرفعال کردن پارالاکس پس‌زمینه"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "배경화면 시차 효과 끄기"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отключить параллакс обоев"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tắt hiệu ứng thị sai hình nền"
+          }
+        }
+      }
+    },
+    "Stop the wallpaper from moving with device motion.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop the wallpaper from moving with device motion."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停止壁纸随设备移动产生位移。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停止桌布隨裝置移動產生位移。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停止桌布隨裝置移動產生位移。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "از حرکت پس‌زمینه همراه با حرکت دستگاه جلوگیری می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "기기 움직임에 따라 배경화면이 움직이지 않게 합니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Останавливает движение обоев при движении устройства."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngăn hình nền di chuyển theo chuyển động của thiết bị."
+          }
+        }
+      }
+    },
+    "HDR Photo Display": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HDR Photo Display"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HDR 照片显示"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HDR 照片顯示"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HDR 照片顯示"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نمایش عکس HDR"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HDR 사진 표시"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отображение HDR-фото"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiển thị ảnh HDR"
+          }
+        }
+      }
+    },
+    "Enable true HDR rendering for photos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable true HDR rendering for photos."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为照片启用真正的 HDR 渲染。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "為照片啟用真正的 HDR 算繪。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "為照片啟用真正的 HDR 算繪。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رندر واقعی HDR را برای عکس‌ها فعال می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진에 실제 HDR 렌더링을 활성화합니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включает настоящий HDR-рендеринг фотографий."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật kết xuất HDR thực cho ảnh."
+          }
+        }
+      }
+    },
+    "Pulse Width Modulation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulse Width Modulation"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "脉宽调制 (PWM)"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "脈寬調變 (PWM)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "脈寬調變 (PWM)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مدولاسیون عرض پالس (PWM)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "펄스 폭 변조 (PWM)"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Широтно-импульсная модуляция (PWM)"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Điều chế độ rộng xung (PWM)"
+          }
+        }
+      }
+    },
+    "Advertise PWM display support. Actual dimming behavior depends on the panel.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertise PWM display support. Actual dimming behavior depends on the panel."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声明支持 PWM 调光。实际调光行为取决于屏幕面板。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告支援 PWM 調光。實際調光行為取決於螢幕面板。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告支援 PWM 調光。實際調光行為取決於螢幕面板。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پشتیبانی از PWM را اعلام می‌کند. رفتار واقعی تنظیم نور به پنل بستگی دارد."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PWM 디스플레이 지원을 알립니다. 실제 밝기 조절 동작은 패널에 따라 다릅니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объявляет поддержку PWM. Фактическое поведение затемнения зависит от панели."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khai báo hỗ trợ PWM. Hành vi điều chỉnh độ sáng thực tế phụ thuộc vào tấm nền."
+          }
+        }
+      }
+    },
+    "DisplayPort Output": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DisplayPort Output"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DisplayPort 输出"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DisplayPort 輸出"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DisplayPort 輸出"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خروجی DisplayPort"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DisplayPort 출력"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вывод DisplayPort"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xuất DisplayPort"
+          }
+        }
+      }
+    },
+    "Advertise DisplayPort output support. Compatible hardware is still required.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertise DisplayPort output support. Compatible hardware is still required."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声明支持 DisplayPort 输出，仍需要兼容硬件。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告支援 DisplayPort 輸出，仍需要相容硬體。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告支援 DisplayPort 輸出，仍需要相容硬體。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پشتیبانی از خروجی DisplayPort را اعلام می‌کند. همچنان به سخت‌افزار سازگار نیاز است."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DisplayPort 출력 지원을 알립니다. 호환 하드웨어는 여전히 필요합니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объявляет поддержку вывода DisplayPort. По-прежнему требуется совместимое оборудование."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khai báo hỗ trợ xuất DisplayPort. Vẫn cần phần cứng tương thích."
+          }
+        }
+      }
+    },
+    "Collision SOS": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Collision SOS"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "车祸检测 SOS"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "車禍偵測 SOS"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "車禍偵測 SOS"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SOS برخورد"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "충돌 SOS"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SOS при столкновении"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SOS va chạm"
+          }
+        }
+      }
+    },
+    "Show collision detection in Emergency SOS settings. Hardware support is still required.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show collision detection in Emergency SOS settings. Hardware support is still required."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在“紧急 SOS”设置中显示车祸检测，仍需要硬件支持。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在「緊急 SOS」設定中顯示車禍偵測，仍需要硬體支援。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在「緊急 SOS」設定中顯示車禍偵測，仍需要硬體支援。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تشخیص برخورد را در تنظیمات SOS اضطراری نشان می‌دهد. همچنان به پشتیبانی سخت‌افزاری نیاز است."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "긴급 구조 요청 설정에 충돌 감지를 표시합니다. 하드웨어 지원은 여전히 필요합니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показывает обнаружение столкновений в настройках экстренного SOS. По-прежнему требуется аппаратная поддержка."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiển thị phát hiện va chạm trong cài đặt SOS khẩn cấp. Vẫn cần hỗ trợ phần cứng."
+          }
+        }
+      }
+    },
+    "Audio Mix": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Audio Mix"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "音频混音"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "音訊混音"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "音訊混音"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "میکس صدا"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "오디오 믹스"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аудиомикс"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trộn âm thanh"
+          }
+        }
+      }
+    },
+    "Enable the audio mix capability for supported media.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable the audio mix capability for supported media."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为支持的媒体启用音频混音能力。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "為支援的媒體啟用音訊混音能力。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "為支援的媒體啟用音訊混音能力。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قابلیت میکس صدا را برای رسانه‌های پشتیبانی‌شده فعال می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "지원되는 미디어에 오디오 믹스 기능을 활성화합니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включает функцию аудиомикса для поддерживаемых медиафайлов."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật khả năng trộn âm thanh cho nội dung được hỗ trợ."
+          }
+        }
+      }
+    },
+    "Spatial FaceTime Audio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spatial FaceTime Audio"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FaceTime 空间音频"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FaceTime 空間音訊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FaceTime 空間音訊"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "صدای فضایی FaceTime"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FaceTime 공간 오디오"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пространственное аудио FaceTime"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Âm thanh không gian FaceTime"
+          }
+        }
+      }
+    },
+    "Enable spatial audio playback for FaceTime.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable spatial audio playback for FaceTime."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "为 FaceTime 启用空间音频播放。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "為 FaceTime 啟用空間音訊播放。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "為 FaceTime 啟用空間音訊播放。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پخش صدای فضایی را برای FaceTime فعال می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FaceTime에 공간 오디오 재생을 활성화합니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включает пространственное воспроизведение звука для FaceTime."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật phát âm thanh không gian cho FaceTime."
+          }
+        }
+      }
+    },
+    "Internal Settings Bundle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Internal Settings Bundle"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "内部设置包"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "內部設定套件"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "內部設定套件"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بسته تنظیمات داخلی"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "내부 설정 번들"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пакет внутренних настроек"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gói cài đặt nội bộ"
+          }
+        }
+      }
+    },
+    "Expose Apple's internal settings bundle. Some system services may behave differently.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expose Apple's internal settings bundle. Some system services may behave differently."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "显示 Apple 内部设置包。部分系统服务可能表现异常。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "顯示 Apple 內部設定套件。部分系統服務可能表現異常。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "顯示 Apple 內部設定套件。部分系統服務可能表現異常。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بسته تنظیمات داخلی Apple را نمایان می‌کند. برخی سرویس‌های سیستم ممکن است متفاوت رفتار کنند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple 내부 설정 번들을 노출합니다. 일부 시스템 서비스가 다르게 동작할 수 있습니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открывает пакет внутренних настроек Apple. Некоторые системные службы могут работать иначе."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiển thị gói cài đặt nội bộ của Apple. Một số dịch vụ hệ thống có thể hoạt động khác đi."
+          }
+        }
+      }
+    },
+    "On-Device Siri": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On-Device Siri"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "端侧 Siri"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "裝置端 Siri"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "裝置端 Siri"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri روی دستگاه"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "온디바이스 Siri"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri на устройстве"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri trên thiết bị"
+          }
+        }
+      }
+    },
+    "Advertise on-device Siri understanding. Availability depends on hardware and region.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertise on-device Siri understanding. Availability depends on hardware and region."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声明支持端侧 Siri 理解，可用性取决于硬件与地区。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告支援裝置端 Siri 理解，可用性取決於硬體與地區。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告支援裝置端 Siri 理解，可用性取決於硬體與地區。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "درک Siri روی دستگاه را اعلام می‌کند. در دسترس بودن به سخت‌افزار و منطقه بستگی دارد."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "온디바이스 Siri 이해 지원을 알립니다. 사용 가능 여부는 하드웨어와 지역에 따라 다릅니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объявляет поддержку понимания Siri на устройстве. Доступность зависит от оборудования и региона."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khai báo khả năng hiểu Siri trên thiết bị. Tính khả dụng phụ thuộc vào phần cứng và khu vực."
+          }
+        }
+      }
+    },
+    "Audio Intelligence": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Audio Intelligence"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "音频智能"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "音訊智慧"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "音訊智慧"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هوش صوتی"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "오디오 인텔리전스"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аудиоинтеллект"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trí tuệ âm thanh"
+          }
+        }
+      }
+    },
+    "Advertise the iOS 27 audio intelligence capability.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertise the iOS 27 audio intelligence capability."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声明 iOS 27 音频智能能力。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告 iOS 27 音訊智慧能力。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告 iOS 27 音訊智慧能力。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قابلیت هوش صوتی iOS 27 را اعلام می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS 27 오디오 인텔리전스 기능을 알립니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объявляет возможность аудиоинтеллекта iOS 27."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khai báo khả năng trí tuệ âm thanh của iOS 27."
+          }
+        }
+      }
+    },
+    "Personal Translator": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personal Translator"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "个人翻译"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "個人翻譯"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "個人翻譯"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مترجم شخصی"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "개인 번역기"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Личный переводчик"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trình dịch cá nhân"
+          }
+        }
+      }
+    },
+    "Advertise the personal translator capability.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertise the personal translator capability."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声明个人翻译能力。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告個人翻譯能力。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告個人翻譯能力。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قابلیت مترجم شخصی را اعلام می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "개인 번역기 기능을 알립니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объявляет возможность личного переводчика."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khai báo khả năng trình dịch cá nhân."
+          }
+        }
+      }
+    },
+    "Photos Clean Up": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos Clean Up"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "照片 Clean Up"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "照片 Clean Up"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "照片 Clean Up"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پاک‌سازی عکس‌ها"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 정리(Clean Up)"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистка фото (Clean Up)"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dọn ảnh (Clean Up)"
+          }
+        }
+      }
+    },
+    "Advertise the photos inpainting (Clean Up) capability.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertise the photos inpainting (Clean Up) capability."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声明照片修复（Clean Up）能力。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告照片修復（Clean Up）能力。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告照片修復（Clean Up）能力。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قابلیت بازسازی تصویر (Clean Up) را اعلام می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 인페인팅(Clean Up) 기능을 알립니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объявляет возможность восстановления фото (Clean Up)."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khai báo khả năng chỉnh sửa ảnh (Clean Up)."
+          }
+        }
+      }
+    },
+    "Handwriting Synthesis": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Handwriting Synthesis"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手写合成"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手寫合成"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手寫合成"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سنتز دست‌نویس"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "필기 합성"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синтез рукописного текста"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tổng hợp chữ viết tay"
+          }
+        }
+      }
+    },
+    "Advertise the handwriting synthesis model capability.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertise the handwriting synthesis model capability."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声明手写合成模型能力。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告手寫合成模型能力。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告手寫合成模型能力。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قابلیت مدل سنتز دست‌نویس را اعلام می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "필기 합성 모델 기능을 알립니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объявляет возможность модели синтеза рукописного текста."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khai báo khả năng mô hình tổng hợp chữ viết tay."
+          }
+        }
+      }
+    },
+    "Always-Listening Hey Siri": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Always-Listening Hey Siri"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "常听 Hey Siri"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "常聽 Hey Siri"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "常聽 Hey Siri"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hey Siri همیشه‌شنوا"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상시 대기 Hey Siri"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Постоянно слушающая Hey Siri"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hey Siri luôn lắng nghe"
+          }
+        }
+      }
+    },
+    "Advertise always-listening Hey Siri support.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertise always-listening Hey Siri support."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声明支持常听 Hey Siri。"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告支援常聽 Hey Siri。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "宣告支援常聽 Hey Siri。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پشتیبانی از Hey Siri همیشه‌شنوا را اعلام می‌کند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상시 대기 Hey Siri 지원을 알립니다."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объявляет поддержку постоянно слушающей Hey Siri."
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khai báo hỗ trợ Hey Siri luôn lắng nghe."
           }
         }
       }

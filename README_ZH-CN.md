@@ -4,7 +4,7 @@
 
 <h1 align="center">GestaltX</h1>
 
-[![Version](https://img.shields.io/badge/version-1.0.3-blue)](https://github.com/huamidev/GestaltX)
+[![Version](https://img.shields.io/badge/version-1.0.4-blue)](https://github.com/huamidev/GestaltX)
 [![Platform](https://img.shields.io/badge/iOS-27.x-black?logo=apple)](#兼容性)
 [![SwiftUI](https://img.shields.io/badge/Swift-SwiftUI-orange?logo=swift)](https://github.com/huamidev/GestaltX)
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](LICENSE)
@@ -17,11 +17,11 @@
 
 | 分类 | 预设与工具 |
 | --- | --- |
-| 显示 | 灵动岛功能标记与布局、全天候显示、AOD 色彩、液态玻璃低性能渲染 |
-| 设备 | 机型名称、开关机提示音、充电上限、轻点唤醒、相机控制设置、操作按钮设置 |
+| 显示 | 灵动岛功能标记与布局、全天候显示、AOD 色彩、高亮度 AOD、AOD 翻页组件、HDR 照片显示、壁纸视差、液态玻璃低性能渲染，以及实验性的 PWM 与 DisplayPort 标记 |
+| 设备 | 机型名称、开关机提示音、充电上限、轻点唤醒、相机控制设置、操作按钮设置、车祸检测 SOS、音频混音、FaceTime 空间音频 |
 | iPad | Apple Pencil 设置、台前调度功能标记、iPad 应用兼容性 |
-| 智能 | 独立的地区代码选项、Apple 智能功能标记及销售地区选项；国行设备可尝试开启 AI |
-| 高级 | Apple 内部功能标记、内部存储视图、安全研究设备标记 |
+| 智能 | 独立的地区代码选项、Apple 智能功能标记、端侧 Siri、音频智能、个人翻译、照片 Clean Up、手写合成、常听 Hey Siri 及销售地区选项；国行设备可尝试开启 AI |
+| 高级 | Apple 内部功能标记、内部存储视图、内部设置包、安全研究设备标记 |
 | 字段编辑 | 读取、搜索、添加、编辑与删除 `CacheExtra` 字段；本地 plist 导入导出；支持字符串、整数、浮点数、布尔值、数据、日期、数组和字典 |
 | 更改管理 | 启动自动读取、手动重新读取、暂存更改前后对比、写入验证、逐项还原 |
 | 备份 | 首次读取自动备份、每次写入前备份、原值记录；打开、导出、恢复和删除 |
