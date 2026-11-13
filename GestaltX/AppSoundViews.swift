@@ -10,7 +10,7 @@ final class AppSoundCatalogModel: ObservableObject {
     @Published private(set) var scanning = false
 
     private let catalog: LaunchArtworkCatalogStore
-    private let captured = CapturedSoundStore(storage: DeviceConsolePaths.capturedSounds, device: DeviceConsolePaths.deviceIdentifier)
+    private let captured = CapturedSoundStore.shared
     private let sounds = AppSoundStore(storage: FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
         .appendingPathComponent("GestaltX/Audio"), device: DeviceConsolePaths.deviceIdentifier)
 
@@ -23,6 +23,9 @@ final class AppSoundCatalogModel: ObservableObject {
     private var observed: Set<String> = []
     private var existing: Set<String> = []
     private var scannedExisting: Set<String> = []
+    private let defaults = UserDefaults.standard
+    private var existingCacheKey: String { "GestaltX.audioLibrary.existing.\(DeviceConsolePaths.deviceIdentifier)" }
+    private var scannedCacheKey: String { "GestaltX.audioLibrary.scanned.\(DeviceConsolePaths.deviceIdentifier)" }
 
     private var catalogTask: Task<Void, Never>?
     private var capturedTask: Task<Void, Never>?
@@ -40,6 +43,8 @@ final class AppSoundCatalogModel: ObservableObject {
         })
         catalog = LaunchArtworkCatalogStore(storage: FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
             .appendingPathComponent("GestaltX/NotificationSoundCatalog-v2"), device: DeviceConsolePaths.deviceIdentifier, backend: backend)
+        existing = Set(defaults.stringArray(forKey: existingCacheKey) ?? [])
+        scannedExisting = Set(defaults.stringArray(forKey: scannedCacheKey) ?? [])
     }
 
     func refresh(force: Bool = false) {
@@ -56,6 +61,7 @@ final class AppSoundCatalogModel: ObservableObject {
             }
         }
         guard catalogTask == nil else { return }
+        if force { scannedExisting.removeAll() }
         scanning = true
         catalogTask = Task {
             for await event in catalog.events(force: force) {
@@ -67,6 +73,7 @@ final class AppSoundCatalogModel: ObservableObject {
                 recompute()
             }
             await scanExisting()
+            saveScanCache()
             scanning = false
             catalogTask = nil
         }
@@ -84,7 +91,8 @@ final class AppSoundCatalogModel: ObservableObject {
             if Task.isCancelled { return }
             do {
                 let result = try await sounds.scan(app)
-                if !result.files.isEmpty { existing.insert(app.id) }
+                if result.files.isEmpty { existing.remove(app.id) }
+                else { existing.insert(app.id) }
                 if !result.partial { scannedExisting.insert(app.id) }
                 recompute()
             } catch is CancellationError {
@@ -96,8 +104,17 @@ final class AppSoundCatalogModel: ObservableObject {
     }
 
     private func recompute() {
-        let visible = installed.keys.filter { observed.contains($0) || existing.contains($0) }
-        applications = visible.compactMap { installed[$0] }.sorted(by: LaunchArtworkAppOrder.before)
+        var merged = installed
+        for id in observed where merged[id] == nil {
+            merged[id] = LaunchArtworkApp(id: id, name: id)
+        }
+        let visible = merged.keys.filter { observed.contains($0) || existing.contains($0) }
+        applications = visible.compactMap { merged[$0] }.sorted(by: LaunchArtworkAppOrder.before)
+    }
+
+    private func saveScanCache() {
+        defaults.set(Array(existing), forKey: existingCacheKey)
+        defaults.set(Array(scannedExisting), forKey: scannedCacheKey)
     }
 
     /// Empty partition: captured apps stay in the captured section even after
@@ -134,7 +151,7 @@ final class AppSoundModel: ObservableObject {
     private var player: AVAudioPlayer?
     private let store = AppSoundStore(storage: FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
         .appendingPathComponent("GestaltX/Audio"), device: DeviceConsolePaths.deviceIdentifier)
-    private let captured = CapturedSoundStore(storage: DeviceConsolePaths.capturedSounds, device: DeviceConsolePaths.deviceIdentifier)
+    private let captured = CapturedSoundStore.shared
 
     /// Captured bundle-internal filenames with no same-name file already present:
     /// these are candidates for a new same-name override in Library/Sounds.
@@ -407,11 +424,18 @@ private struct AppSoundEditor: View {
         .task { await model.select(entry, app: app) }
         .onChange(of: presenting, initial: true) { _, value in customizations.setPresenting(value, owner: presentationOwner) }
         .onDisappear { model.stop(); if !importsAudio { customizations.setPresenting(false, owner: presentationOwner) } }
-        .fileImporter(isPresented: $importsAudio, allowedContentTypes: [.audio]) { result in
-            switch result {
-            case .success(let url): Task { await model.choose(url) }
-            case .failure(let error): if (error as NSError).code != CocoaError.userCancelled.rawValue { model.message = error.localizedDescription }
+        .sheet(isPresented: $importsAudio) {
+            CustomizationFilePicker(allowedTypes: [.item]) { result in
+                importsAudio = false
+                switch result {
+                case .success(let url): Task { await model.choose(url) }
+                case .failure(let error):
+                    if (error as NSError).code != CocoaError.userCancelled.rawValue {
+                        model.message = error.localizedDescription
+                    }
+                }
             }
+            .ignoresSafeArea()
         }
         .alert(L("Apply these changes?"), isPresented: $confirmsApply) {
             Button(L("Cancel"), role: .cancel) {}
@@ -467,11 +491,18 @@ private struct AppSoundCapturedEditor: View {
         .toolbar { ToolbarItem(placement: .topBarTrailing) { if model.busy { ProgressView() } } }
         .onChange(of: presenting, initial: true) { _, value in customizations.setPresenting(value, owner: presentationOwner) }
         .onDisappear { model.stop(); if !importsAudio { customizations.setPresenting(false, owner: presentationOwner) } }
-        .fileImporter(isPresented: $importsAudio, allowedContentTypes: [.audio]) { result in
-            switch result {
-            case .success(let url): Task { await model.chooseNamed(url, name: clue.identityFilename) }
-            case .failure(let error): if (error as NSError).code != CocoaError.userCancelled.rawValue { model.message = error.localizedDescription }
+        .sheet(isPresented: $importsAudio) {
+            CustomizationFilePicker(allowedTypes: [.item]) { result in
+                importsAudio = false
+                switch result {
+                case .success(let url): Task { await model.chooseNamed(url, name: clue.identityFilename) }
+                case .failure(let error):
+                    if (error as NSError).code != CocoaError.userCancelled.rawValue {
+                        model.message = error.localizedDescription
+                    }
+                }
             }
+            .ignoresSafeArea()
         }
         .alert(L("Apply these changes?"), isPresented: $confirmsCreate) {
             Button(L("Cancel"), role: .cancel) {}
